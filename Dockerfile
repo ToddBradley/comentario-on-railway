@@ -1,4 +1,4 @@
-FROM registry.gitlab.com/comentario/comentario:3.17.0
+FROM registry.gitlab.com/comentario/comentario:v3.17.0
 
 COPY secrets.template.yaml .
 COPY entrypoint.sh .
